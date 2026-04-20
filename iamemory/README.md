@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/badge/Version-1.0-blue.svg)]()
 [![OpenClaw](https://img.shields.io/badge/Powered%20by-OpenClaw-green.svg)](https://github.com/openclaw/openclaw)
 
-## 📖 About
+## About
 
 **IAmemory** is an open-source AI personal persistent memory system built on the OpenClaw framework.
 
@@ -18,7 +18,7 @@
 
 > **"I Am Memory — Memory Eternal, Soul Immortal"**
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 IAmemory/
@@ -35,7 +35,7 @@ IAmemory/
 └── docs/              # Documentation
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install OpenClaw
 
@@ -83,7 +83,7 @@ vim USER.md
 openclaw start --config ./IAmemory
 ```
 
-## 🎯 Core Features
+## Core Features
 
 | Feature | Description |
 |---------|-------------|
@@ -93,25 +93,25 @@ openclaw start --config ./IAmemory
 | **Self-Evolution** | Daily learning logs auto-update |
 | **Plug-and-play Skills** | Infinite expansion via Skills system |
 
-## 📊 Memory Architecture
+## Memory Architecture
 
 ```
 ┌─────────────────────────────────────┐
 │         IAmemory Memory System      │
 ├─────────────────────────────────────┤
-│  ┌─────────┐     ┌─────────┐     │
-│  │  Soul   │     │ Identity│     │
-│  │ SOUL.md │     │IDENTITY │     │
-│  └────┬────┘     └────┬────┘     │
-│       └───────┬───────┘          │
-│  ┌────────────┴────────────┐     │
-│  │    Three-layer Memory    │     │
-│  │   HOT → WARM → COLD     │     │
-│  └─────────────────────────┘     │
+│  ┌─────────┐     ┌─────────┐       │
+│  │  Soul   │     │ Identity│       │
+│  │ SOUL.md │     │IDENTITY │       │
+│  └────┬────┘     └────┬────┘       │
+│       └───────┬───────┘            │
+│  ┌────────────┴────────────┐        │
+│  │    Three-layer Memory    │        │
+│  │   HOT → WARM → COLD     │        │
+│  └─────────────────────────┘        │
 └─────────────────────────────────────┘
 ```
 
-## 💡 Use Cases
+## Use Cases
 
 | Scenario | Benefit |
 |----------|---------|
@@ -120,31 +120,15 @@ openclaw start --config ./IAmemory
 | Vertical Expert | Medical/Legal/Pharma knowledge base |
 | Digital Twin | Your virtual avatar |
 
-## 🎓 Monetization (Coming Soon)
-
-| Product | Price | Description |
-|---------|-------|-------------|
-| "30-min IAmemory Setup" | ¥299 | Video course |
-| Prompt Template Subscription | ¥99/mo | Monthly updates |
-| Private Deployment | ¥1999 | One-time service |
-
-## 📊 Project Stats
-
-| Metric | Value |
-|--------|-------|
-| GitHub Stars | ⭐ 0 (New!) |
-| Forks | 0 |
-| Issues | 0 |
-
-## 🤝 Contributing
+## Contributing
 
 Pull requests and issues are welcome!
 
-## 📄 License
+## License
 
 MIT License - Commercial use allowed, please credit
 
-## 📞 Contact
+## Contact
 
 - GitHub Issues: [Submit Bug/Feature](https://github.com/leopard284/IAmemory/issues)
 - Email: contact@iamemory.ai
