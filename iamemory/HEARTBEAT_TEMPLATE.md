@@ -1,4 +1,4 @@
-# HEARTBEAT_TEMPLATE.md - 心跳检查模板
+# HEARTBEAT_TEMPLATE.md - Heartbeat Check Template
 
 ```markdown
 # HEARTBEAT.md Template
@@ -10,30 +10,30 @@
 ```
 ```
 
-## 心跳功能说明
+## Heartbeat Function
 
-HEARTBEAT.md 用于配置定期后台检查任务。
+HEARTBEAT.md configures periodic background check tasks.
 
-### 格式说明
+### Format
 
-- 文件为空或只有注释：跳过检查
-- 添加任务：定期执行的后台工作
+- Empty or comments only: Skip checks
+- Add tasks: Periodic background work
 
-### 示例
+### Example
 
 ```markdown
-# 每30分钟检查一次邮件
+# Check email every 30 minutes
 - type: email
   check: unread
 
-# 每小时检查日历
+# Check calendar every hour
 - type: calendar
   check: upcoming
 ```
 
-## 使用方法
+## Usage
 
 ```bash
 cp HEARTBEAT_TEMPLATE.md HEARTBEAT.md
-vim HEARTBEAT.md  # 配置心跳任务
+vim HEARTBEAT.md  # Configure heartbeat tasks
 ```

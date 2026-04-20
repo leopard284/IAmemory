@@ -1,32 +1,32 @@
 #!/bin/bash
-# IAmemory 开源包安装脚本
+# IAmemory Install Script
 
 echo "=========================================="
-echo "  IAmemory - AI持久记忆系统"
+echo "  IAmemory - AI Persistent Memory System"
 echo "=========================================="
 echo ""
 
-# 检查OpenClaw
+# Check OpenClaw
 if ! command -v openclaw &> /dev/null; then
-    echo "❌ OpenClaw 未安装"
-    echo "请先安装 OpenClaw: https://openclaw.ai"
+    echo "❌ OpenClaw is not installed"
+    echo "Please install OpenClaw first: https://openclaw.ai"
     exit 1
 fi
 
-echo "✅ OpenClaw 已安装"
+echo "✅ OpenClaw is installed"
 
-# 创建配置目录
+# Create config directory
 CONFIG_DIR="$HOME/.openclaw/workspace/IAmemory"
 echo ""
-echo "📁 创建配置目录: $CONFIG_DIR"
+echo "📁 Creating config directory: $CONFIG_DIR"
 mkdir -p "$CONFIG_DIR"
 
-# 复制配置文件
+# Copy config files
 echo ""
-echo "📦 复制配置文件..."
+echo "📦 Copying config files..."
 cp -r . "$CONFIG_DIR/"
 
-# 重命名模板文件
+# Rename template files
 cd "$CONFIG_DIR" || exit
 mv IDENTITY_TEMPLATE.md IDENTITY.md 2>/dev/null || true
 mv SOUL_TEMPLATE.md SOUL.md 2>/dev/null || true
@@ -37,13 +37,13 @@ mv HEARTBEAT_TEMPLATE.md HEARTBEAT.md 2>/dev/null || true
 
 echo ""
 echo "=========================================="
-echo "  安装完成！"
+echo "  Installation Complete!"
 echo "=========================================="
 echo ""
-echo "下一步："
-echo "1. 编辑配置文件定制你的AI助手"
-echo "2. 运行 openclaw start"
+echo "Next steps:"
+echo "1. Edit config files to customize your AI"
+echo "2. Run openclaw start"
 echo ""
-echo "📖 文档: https://docs.openclaw.ai"
-echo "🌐 项目: https://github.com/YOUR_USERNAME/IAmemory"
+echo "📖 Docs: https://docs.openclaw.ai"
+echo "🌐 Project: https://github.com/leopard284/IAmemory"
 echo ""

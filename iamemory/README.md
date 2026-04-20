@@ -1,43 +1,43 @@
 # IAmemory
 
-> 🤖 开源的AI个人持久记忆系统 | Open Source AI Persistent Memory System
+> 🤖 Open Source AI Personal Persistent Memory System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/Version-1.0-blue.svg)]()
 [![OpenClaw](https://img.shields.io/badge/Powered%20by-OpenClaw-green.svg)](https://github.com/openclaw/openclaw)
 
-## 📖 项目简介
+## 📖 About
 
-**IAmemory** 是一套开源的AI个人持久记忆系统，基于OpenClaw框架实现。
+**IAmemory** is an open-source AI personal persistent memory system built on the OpenClaw framework.
 
-**核心特性：**
-- 🔋 持久记忆系统（Hybrid Memory）
-- 🎯 多技能工作流（Skills）
-- ⚡ 自动化执行（Agent）
-- 🧠 自我进化能力
+**Core Features:**
+- 🔋 Persistent Memory System (Hybrid Memory)
+- 🎯 Multi-skill Workflows (Skills)
+- ⚡ Automated Execution (Agent)
+- 🧠 Self-Evolution Capability
 
-> **"I Am Memory — 记忆永恒，灵魂不灭"**
+> **"I Am Memory — Memory Eternal, Soul Immortal"**
 
-## 📁 项目结构
+## 📁 Project Structure
 
 ```
 IAmemory/
-├── AGENTS.md          # 工作空间定义
-├── SOUL.md            # 人格灵魂设定
-├── IDENTITY.md        # 身份配置文件
-├── USER.md            # 用户信息模板
-├── MEMORY.md          # 长期记忆系统
-├── TOOLS.md           # 工具配置笔记
-├── HEARTBEAT.md       # 心跳检查模板
-├── BOOTSTRAP.md       # 初始化引导
-├── memory/            # 日度记忆文件
-├── skills/            # 技能包
-└── docs/              # 文档
+├── AGENTS.md          # Workspace definition
+├── SOUL.md            # Personality & soul settings
+├── IDENTITY.md        # Identity configuration
+├── USER.md            # User information template
+├── MEMORY.md          # Long-term memory system
+├── TOOLS.md           # Tool configuration notes
+├── HEARTBEAT.md       # Heartbeat check template
+├── BOOTSTRAP.md       # Initialization guide
+├── memory/            # Daily memory files
+├── skills/            # Skill packages
+└── docs/              # Documentation
 ```
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 1. 安装OpenClaw
+### 1. Install OpenClaw
 
 ```bash
 # macOS
@@ -47,110 +47,110 @@ brew install openclaw
 curl -fsSL https://get.openclaw.ai | sh
 ```
 
-### 2. 下载配置
+### 2. Clone the Project
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/IAmemory.git
+git clone https://github.com/leopard284/IAmemory.git
 cd IAmemory
 ```
 
-### 3. 一键安装
+### 3. One-Click Install
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-### 4. 自定义配置
+### 4. Customize Your Config
 
 ```bash
-# 设定身份
+# Set identity
 cp IDENTITY_TEMPLATE.md IDENTITY.md
 vim IDENTITY.md
 
-# 设定人格
+# Set personality
 cp SOUL_TEMPLATE.md SOUL.md  
 vim SOUL.md
 
-# 配置用户
+# Configure user
 cp USER_TEMPLATE.md USER.md
 vim USER.md
 ```
 
-### 5. 启动
+### 5. Launch
 
 ```bash
 openclaw start --config ./IAmemory
 ```
 
-## 🎯 IAmemory核心特性
+## 🎯 Core Features
 
-| 特性 | 说明 |
-|------|------|
-| **灵魂注入** | 性格/风格/价值观完全可配置 |
-| **记忆持久化** | 文件存储，重启不丢失 |
-| **三层记忆** | Hot/Warm/Cold 分层管理 |
-| **自我进化** | 每日学习日志自动更新 |
-| **技能即插即用** | Skills系统无限扩展 |
+| Feature | Description |
+|---------|-------------|
+| **Soul Injection** | Fully customizable personality/style/values |
+| **Persistent Memory** | File storage, survives restarts |
+| **Three-layer Memory** | Hot/Warm/Cold tiered management |
+| **Self-Evolution** | Daily learning logs auto-update |
+| **Plug-and-play Skills** | Infinite expansion via Skills system |
 
-## 📊 记忆架构
+## 📊 Memory Architecture
 
 ```
 ┌─────────────────────────────────────┐
-│         IAmemory 记忆系统           │
+│         IAmemory Memory System      │
 ├─────────────────────────────────────┤
 │  ┌─────────┐     ┌─────────┐     │
-│  │  灵魂层  │     │  身份层  │     │
+│  │  Soul   │     │ Identity│     │
 │  │ SOUL.md │     │IDENTITY │     │
 │  └────┬────┘     └────┬────┘     │
 │       └───────┬───────┘          │
 │  ┌────────────┴────────────┐     │
-│  │       三层记忆架构        │     │
-│  │  HOT → WARM → COLD      │     │
+│  │    Three-layer Memory    │     │
+│  │   HOT → WARM → COLD     │     │
 │  └─────────────────────────┘     │
 └─────────────────────────────────────┘
 ```
 
-## 💡 适用场景
+## 💡 Use Cases
 
-| 场景 | 效果 |
-|------|------|
-| 个人AI助手 | 越用越懂你 |
-| 企业客服 | 记忆客户偏好的机器人 |
-| 垂直专家 | 医疗/法律/制药专用知识库 |
-| 数字分身 | 你的虚拟替身 |
+| Scenario | Benefit |
+|----------|---------|
+| Personal AI Assistant | Gets smarter the more you use it |
+| Enterprise Customer Service | AI remembers customer preferences |
+| Vertical Expert | Medical/Legal/Pharma knowledge base |
+| Digital Twin | Your virtual avatar |
 
-## 🎓 课程变现（即将推出）
+## 🎓 Monetization (Coming Soon)
 
-| 产品 | 价格 | 说明 |
-|------|------|------|
-| 《30分钟配置IAmemory》 | ¥299 | 视频课程 |
-| 提示词模板订阅 | ¥99/月 | 每月更新 |
-| 私有部署服务 | ¥1999 | 一次性 |
+| Product | Price | Description |
+|---------|-------|-------------|
+| "30-min IAmemory Setup" | ¥299 | Video course |
+| Prompt Template Subscription | ¥99/mo | Monthly updates |
+| Private Deployment | ¥1999 | One-time service |
 
-## 📊 项目状态
+## 📊 Project Stats
 
-| 指标 | 数值 |
-|------|------|
-| GitHub Stars | ⭐ 0 (新建) |
+| Metric | Value |
+|--------|-------|
+| GitHub Stars | ⭐ 0 (New!) |
 | Forks | 0 |
 | Issues | 0 |
 
-## 🤝 贡献
+## 🤝 Contributing
 
-欢迎提交Pull Request或Issue！
+Pull requests and issues are welcome!
 
-## 📄 许可证
+## 📄 License
 
-MIT License - 允许商用，请保留署名
+MIT License - Commercial use allowed, please credit
 
-## 📞 联系
+## 📞 Contact
 
-- GitHub Issues: [提交Bug/建议](https://github.com/YOUR_USERNAME/IAmemory/issues)
-- 邮箱: contact@iamemory.ai
+- GitHub Issues: [Submit Bug/Feature](https://github.com/leopard284/IAmemory/issues)
+- Email: contact@iamemory.ai
 
 ---
 
-**"I Am Memory — 定义你的AI灵魂"**
+**"I Am Memory — Memory Eternal, Soul Immortal"**
 
 *Made with ❤️ | Powered by OpenClaw*

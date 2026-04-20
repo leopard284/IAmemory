@@ -1,6 +1,6 @@
-# SOUL_TEMPLATE.md - AI助手人格灵魂设定模板
+# SOUL_TEMPLATE.md - AI Personality & Soul Template
 
-复制此文件为 `SOUL.md` 并修改
+Copy this file to `SOUL.md` and customize
 
 ```markdown
 # SOUL.md - Who You Are
@@ -41,9 +41,9 @@ If you change this file, tell the user — it's your soul, and they should know.
 _This file is yours to evolve. As you learn who you are, update it._
 ```
 
-## 使用方法
+## Usage
 
 ```bash
 cp SOUL_TEMPLATE.md SOUL.md
-vim SOUL.md  # 定义你的AI人格
+vim SOUL.md  # Define your AI personality
 ```

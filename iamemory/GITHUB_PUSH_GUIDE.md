@@ -1,120 +1,120 @@
-# 🚀 GitHub 发布指南 - IAmemory
+# 🚀 GitHub Publishing Guide - IAmemory
 
-## 发布前
+## Before Publishing
 
-确认文件内容干净，无个人信息：
+Verify files contain no personal information:
 
 ```bash
 cat ~/.openclaw/workspace/IAmemory/README.md
-# 确认只有模板内容
+# Confirm only template content
 ```
 
-## 方法一：手动发布（推荐新手）
+## Method 1: Manual Push (Recommended for Beginners)
 
-### 1. 在GitHub创建仓库
+### 1. Create GitHub Repository
 
-1. 打开 https://github.com/new
-2. 仓库名称：`IAmemory`
-3. 描述：`IAmemory - 开源AI个人持久记忆系统`
-4. 选择 **Public** (公开仓库)
-5. 点击 **Create repository**
+1. Open https://github.com/new
+2. Repository name: `IAmemory`
+3. Description: `IAmemory - Open Source AI Personal Persistent Memory System`
+4. Select **Public**
+5. Click **Create repository**
 
-### 2. 本地推送
+### 2. Push from Local
 
 ```bash
 cd ~/.openclaw/workspace/IAmemory
 
-# 添加远程仓库
-git remote add origin https://github.com/YOUR_USERNAME/IAmemory.git
+# Add remote
+git remote add origin https://github.com/leopard284/IAmemory.git
 
-# 提交所有文件
+# Commit all files
 git add .
-git commit -m "feat: IAmemory v1.0 - 开源AI个人持久记忆系统
+git commit -m "feat: IAmemory v1.0 - Open Source AI Persistent Memory System
 
-- 三层记忆架构
-- 灵魂+身份+记忆系统
-- MIT开源许可证
-- 一键安装脚本"
+- Three-layer memory architecture
+- Soul + Identity + Memory system
+- MIT open source license
+- One-click install script"
 
-# 推送到GitHub
+# Push to GitHub
 git push -u origin main
 ```
 
-### 3. 验证
+### 3. Verify
 
-打开 `https://github.com/YOUR_USERNAME/IAmemory` 查看
-
----
-
-## 方法二：使用GitHub网页编辑器
-
-1. 打开 https://github.com/new
-2. 仓库名称填 `IAmemory`
-3. 描述填 `IAmemory - 开源AI个人持久记忆系统`
-4. 选择 **Public**
-5. 勾选 **Add a README file**
-6. 点击 **Create repository**
-7. 点击 **Add file** → **Upload files**
-8. 上传 `IAmemory` 目录下所有文件
-9. 填写提交信息，点击 **Commit changes**
+Open `https://github.com/leopard284/IAmemory` to view
 
 ---
 
-## 发布后设置
+## Method 2: Web Upload
 
-### 1. 添加主题标签
+1. Open https://github.com/new
+2. Repository name: `IAmemory`
+3. Description: `IAmemory - Open Source AI Personal Persistent Memory System`
+4. Select **Public**
+5. Check **Add a README file**
+6. Click **Create repository**
+7. Click **Add file** → **Upload files**
+8. Upload all files from `IAmemory` directory
+9. Fill in commit message, click **Commit changes**
 
-在GitHub仓库页面右侧：
+---
+
+## After Publishing
+
+### 1. Add Topic Tags
+
+On GitHub repo page, right side:
 - Topics: `openclaw`, `ai-assistant`, `memory-system`, `persistent-memory`, `productivity`
 
-### 2. 启用GitHub Pages (可选)
+### 2. Enable GitHub Pages (Optional)
 
 1. Settings → Pages
 2. Source: main branch
-3. 访问 `https://YOUR_USERNAME.github.io/IAmemory`
+3. Access at `https://leopard284.github.io/IAmemory`
 
 ---
 
-## 📊 变现路线图
+## 📊 Monetization Roadmap
 
 ```
-Day 1:   GitHub发布 → 0 Stars
-Week 1:  推广 → 50 Stars
-Month 1: 建立影响力 → 500 Stars
-        → 发布 Product Hunt
-        → 推出付费课程
+Day 1:   GitHub publish → 0 Stars
+Week 1:  Promote → 50 Stars
+Month 1: Build influence → 500 Stars
+        → Post on Product Hunt
+        → Launch paid course
 
-Month 3: 500+ Stars → 建立品牌
-        → 付费模板订阅 ¥99/月
-        → 企业定制 ¥9999+
-```
-
----
-
-## 🔗 相关链接
-
-- OpenClaw官网: https://openclaw.ai
-- IAmemory项目: https://github.com/YOUR_USERNAME/IAmemory
-- 问题反馈: https://github.com/YOUR_USERNAME/IAmemory/issues
-
----
-
-## 📝 推广文案模板
-
-```
-🔥 IAmemory - 给AI注入永恒记忆
-
-不是聊天机器人，是你的数字分身
-
-✓ 记忆永不掉线
-✓ 三层记忆架构  
-✓ 自我进化
-✓ 完全可定制
-
-GitHub: https://github.com/YOUR_USERNAME/IAmemory
-⭐ Star支持我们！
+Month 3: 500+ Stars → Build brand
+        → Paid template subscription $15/mo
+        → Enterprise customization $1500+
 ```
 
 ---
 
-**"I Am Memory — 记忆永恒，灵魂不灭"**
+## 🔗 Related Links
+
+- OpenClaw Official: https://openclaw.ai
+- IAmemory Project: https://github.com/leopard284/IAmemory
+- Issues: https://github.com/leopard284/IAmemory/issues
+
+---
+
+## 📝 Promotion Template
+
+```
+🔥 IAmemory - Give Your AI Eternal Memory
+
+Not a chatbot, your digital twin
+
+✓ Memory never lost
+✓ Three-layer memory architecture  
+✓ Self-evolution
+✓ Fully customizable
+
+GitHub: https://github.com/leopard284/IAmemory
+⭐ Star us!
+```
+
+---
+
+**"I Am Memory — Memory Eternal, Soul Immortal"**

@@ -1,4 +1,4 @@
-# AGENTS_TEMPLATE.md - 工作空间配置模板
+# AGENTS_TEMPLATE.md - Workspace Configuration Template
 
 ```markdown
 # AGENTS.md - Your Workspace
@@ -62,9 +62,9 @@ Before doing anything else:
 This is a starting point. Add your own conventions, style, and rules.
 ```
 
-## 使用方法
+## Usage
 
 ```bash
 cp AGENTS_TEMPLATE.md AGENTS.md
-vim AGENTS.md  # 自定义你的工作空间
+vim AGENTS.md  # Customize your workspace
 ```
